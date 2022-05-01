@@ -17,15 +17,15 @@ body {
     animation-iteration-count: infinite;
     animation-play-state: running;
     animation-timing-function: ease-in-out;
-    
-    @keyframes animation {
-        20% {
-            background-image: url("{% static 'css/images/safe_image-1.jpg' %}");
-        }
-        40% {
-            background-image: url("{% static 'css/images/safe_image-2.jpg' %}");
-        }
-    
+
+@keyframes animation {
+    20% {
+        background-image: url("{% static 'css/images/safe_image-1.jpg' %}");
     }
+    40% {
+        background-image: url("{% static 'css/images/safe_image-2.jpg' %}");
+    }
+
+}
 }
 
