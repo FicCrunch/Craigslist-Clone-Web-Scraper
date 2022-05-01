@@ -6,7 +6,7 @@ class Search(models.Model):
     created = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return f'{self.search}'
+        return f"{self.search}"
         # return '{}'.format(self.search)
 
     class Meta:
